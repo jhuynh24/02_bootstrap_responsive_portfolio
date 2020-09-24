@@ -1,0 +1,22 @@
+h2 {
+    font-size: 36px;
+    color: mediumseagreen;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.container {
+    background-color: white;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin: 30px;
+    
+}
+
+img {
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
