@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Code for header -->
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- CSS only -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+  <title>Document</title>
 </head>
+
+<!-- Code for toggler -->
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Julian Huynh</a>
+    <a class="navbar-brand" href="#" style="color: indigo; font-size: xx-large;">Julian Huynh</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <!-- Code for navbar -->
+    <section class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto justify-content-end">
         <li class="nav-item">
           <a class="nav-link" href="index.html">About Me</a>
@@ -31,35 +35,47 @@
           <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
         </li>
       </ul>
-    </div>
+    </section>
   </nav>
-  <div class="container">
-    <div class="row" style="height: 60px">
-    </div>
-    <div class="row mt-3">
-      <div class="col-sm-8 content pb-3">
+
+  <!-- Code for main content -->
+  <main class="container">
+    <section class="row" style="height: 60px">
+    </section>
+    <section class="row mt-3">
+      <section class="col-sm-8 content pb-3">
         <h2>
           Contact
         </h2>
         <hr>
+
+        <!-- Code for contact form -->
         <form>
-          <div class="form-group">
+          <section class="form-group">
             <label for="nameField">Name</label>
             <input type="text" class="form-control w-75" id="nameField">
-          </div>
-          <div class="form-group">
+          </section>
+          <section class="form-group">
             <label for="emailField">Email</label>
             <input type="email" class="form-control w-75" id="emailField">
-          </div>
-          <div class="form-group">
+          </section>
+          <section class="form-group">
             <label for="messageField">Message</label>
             <textarea class="form-control w-75" id="messageField" rows="3"></textarea>
-          </div>
+          </section>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-      </div>
-    </div>
-  </div>
+      </section>
+    </section>
+  </main>
 </body>
+
+<!-- Links to javascript links -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </html>

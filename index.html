@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Code for header -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="./style.css"> -->
-        <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Responsive Portfolio</title>
 </head>
+
+<!-- Code for toggler -->
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Julian Huynh</a>
+        <a class="navbar-brand" href="#" style="color: indigo; font-size: xx-large;">Julian Huynh</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <!-- Code for navbar links -->
+        <section class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto justify-content-end">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
@@ -31,37 +36,64 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
-        </div>
+        </section>
     </nav>
-    <div class="container">
-        <div class="row mt-3">
-            <div class="col-sm-12">
+
+    <!-- Code for main container -->
+    <main class="container">
+        <section class="row" style="height: 60px">
+        </section>
+        <section class="row p-auto">
+
+            <!-- Code for about me section -->
+            <section class="col-sm-8 content">
                 <h2>
                     About Me
                 </h2>
                 <hr>
-                <img src="./Profile Picture.jpeg" alt="Julian Huynh Profile Picture" width="300" height="300" class="img-fluid float-left">
+                <img src="./Profile Picture.jpeg" alt="Julian Huynh Profile Picture" width="300" height="300"
+                    class="img-fluid float-left mr-3">
                 <p>
-                    My name is Julian Huynh. 
-                    I am a student in the KU Coding Bootcamp Full-Stack Web Development program. 
-                    I currently work in the seafood department at whole foods market. 
-                    Some of my interests include hiking, fishing, traveling, and cryptocurrency. 
-                    Being outdoors and exploring new places is one of my favorite things to do in my free time. 
-                    I also have a passion for building and learning about technology. 
-                    After completing my boot camp program I hope to find a web developer career that will let me enjoy working in a field I am passionate about as well as giving me the ability and resources to travel to new places. 
+                    My name is Julian Huynh.
+                    I am a student in the KU Coding Bootcamp Full-Stack Web Development program.
+                    I currently work in the seafood department at whole foods market.
+                    Some of my interests include hiking, fishing, traveling, and cryptocurrency.
+                    Being outdoors and exploring new places is one of my favorite things to do in my free time.
+                    I also have a passion for building and learning about technology.
+                    After completing my boot camp program I hope to find a web developer career that will let me enjoy
+                    working in a field I am passionate about as well as giving me the ability and resources to travel to
+                    new places.
                 </p>
                 <p>
-                   I am working toward a career in software development because of the challenges it brings.
-                   Growing up in the technology age we currently live in has shown me how vital and important it is to keep innovating the current systems we have in place.
-                   It still amazes me to look back at cell phones and track their evolution over the past few decades. They are living proof that our advances in technology are vital to our growth as a society.
-                   I want to inspire people to look ahead of just themselves and work together with others in order to create solutions for the future that can only be achieved by working along side each other.
-                   Software development is such a great field because it allows your individuality to flourish within your own unique code and thought process. But, it also goes so much farther as a product when it is combined with the passion and dedication of a well meshing team of developers.
-                   I want to keep pushing the limits of our current technological capabilities so we can experience more extraordinary breakthroughs to help the world create a more sustainable and prosperous lifestyle.    
+                    I am working toward a career in software development because of the challenges it brings.
+                    Growing up in the technology age we currently live in has shown me how vital and important it is to
+                    keep innovating the current systems we have in place.
+                    It still amazes me to look back at cell phones and track their evolution over the past few decades.
+                    They are living proof that our advances in technology are vital to our growth as a society.
+                    I want to inspire people to look ahead of just themselves and work together with others in order to
+                    create solutions for the future that can only be achieved by working along side each other.
+                    Software development is such a great field because it allows your individuality to flourish within
+                    your own unique code and thought process. But, it also goes so much farther as a product when it is
+                    combined with the passion and dedication of a well meshing team of developers.
+                    I want to keep pushing the limits of our current technological capabilities so we can experience
+                    more extraordinary breakthroughs to help the world create a more sustainable and prosperous
+                    lifestyle.
 
                 </p>
-            </div>
-        </div>
-    </div>
+            </section>
+        </section>
+    </main>>
+
+    <!-- Code for javascript links -->
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
 
 </html>
