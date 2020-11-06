@@ -19,3 +19,11 @@ nav {
     position: absolute;
     right: 10px;
 }
+
+body {
+ background-image: url("https://www.techadvisor.co.uk/cmsdata/slideshow/3788397/Computer_code_thumb800.jpg");
+}
+
+#bigContainer {
+    background-color: lightgray;
+}
